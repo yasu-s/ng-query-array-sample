@@ -1,45 +1,45 @@
 # ng-query-array-sample
 
-## Overview
+## 概要
 
-* This is a sample for passing URL query parameters as an array when using the HttpClient.get method in Angular.
-* It is specified with `fromObject` when creating HttpParams.
+* Angular で HttpClient.getメソッド使用時にURLクエリパラメータを配列で渡す場合のサンプルです。
+* HttpParams の生成時に `fromObject` で指定します。
 
-## System requirements
+## 実行環境
 
 * Node.js - 10.x
 * Yarn - 1.17.x
 
-## Used library
+## 使用ライブラリ
 
 * Angular - 8.2.x
 
-## Usage
+## 動作確認
 
-### 1. Download Sample
+### 1. サンプルのダウンロード
 
 ```bash
 git clone git@github.com:yasu-s/ng-query-array-sample.git
 ```
 
-### 2. Installing packages  
+### 2. パッケージインストール  
 
 ```bash
 cd ng-query-array-sample
 yarn
 ```
 
-### 3. Launch sample application  
+### 3. サンプルの起動  
 
 ```bash
 yarn start
 ```
 
-## Execution result
+## 実行結果
 
 ![get-array](https://user-images.githubusercontent.com/2668146/68537410-5c869600-03a6-11ea-8ad5-d65cf2e0355a.gif)
 
-## Sample source
+## サンプルソース
 
 ### app.service.ts
 
